@@ -1,8 +1,8 @@
 export default function Page() {
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>GemiShop</h1>
-      <p>Sayt yeniləndi!</p>
+      <p>Yeniləndi!</p>
     </div>
   );
 }
