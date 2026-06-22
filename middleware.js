@@ -2,14 +2,9 @@ import { NextResponse } from 'next/server';
 
 export function middleware(request) {
   const authHeader = request.headers.get('authorization');
-
-  if (authHeader) {
-    const authValue = authHeader.split(' ')[1];
-    const [user, pwd] = atob(authValue).split(':');
-
-    if (user === 'admin' && pwd === 'WAlquliyevabbasGemishop-2009_W') {
-      return NextResponse.next();
-    }
+  
+  if (authHeader === 'Basic YWRtaW46V0FscXVsaXlldmFiYmFzR2VtaXNob3AtMjAwOV9X') {
+    return NextResponse.next();
   }
 
   return new NextResponse('Giriş qadağandır!', {
