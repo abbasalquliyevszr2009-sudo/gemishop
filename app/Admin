@@ -1,0 +1,38 @@
+'use client';
+import { useState } from 'react';
+
+export default function AdminPage() {
+  const [authenticated, setAuthenticated] = useState(false);
+  const [password, setPassword] = useState('');
+
+  const checkPassword = () => {
+    if (password === 'WusnaGemishop2009') { // Bura öz şifrəni yaz
+      setAuthenticated(true);
+    } else {
+      alert('Şifrə səhvdir!');
+    }
+  };
+
+  if (!authenticated) {
+    return (
+      <div style={{ textAlign: 'center', marginTop: '50px' }}>
+        <h1>Admin Panelinə Giriş</h1>
+        <input 
+          type="password" 
+          value={password} 
+          onChange={(e) => setPassword(e.target.value)} 
+          placeholder="Şifrəni daxil et"
+        />
+        <button onClick={checkPassword}>Daxil ol</button>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <h1>Xoş gəldin, Admin!</h1>
+      <p>Bura sənin məxfi panelindir.</p>
+    </div>
+  );
+}
+
