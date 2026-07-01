@@ -88,26 +88,25 @@ export default function Page() {
         </section>
       </main>
 
-      {/* Footer (Alt hissə) */}
-      <footer style={{ backgroundColor: '#333', color: 'white', padding: '30px', marginTop: '50px', textAlign: 'center' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', maxWidth: '1000px', margin: '0 auto' }}>
-          <div>
-            <h5>Əlaqə</h5>
-            <p>Ünvan: Bakı, Dənizkənarı Bulvar 1</p>
-            <p>Email: info@gemishop.az</p>
-            <p>Tel: +994 50 123 45 67</p>
-          </div>
-          <div>
-            <h5>Bizim haqqımızda</h5>
-            <p>Ən keyfiyyətli dəniz ləvazimatları və suvenir mağazası.</p>
-          </div>
-          <div>
-            <h5>Sosial Şəbəkələr</h5>
-            <p>Facebook | Instagram</p>
-          </div>
-        </div>
-        <p style={{ marginTop: '30px', fontSize: '12px', color: '#aaa' }}>© 2024 GemiShop. Bütün hüquqlar qorunur.</p>
-      </footer>
+{/* Footer (Alt hissə) */}
+<footer style={{ backgroundColor: '#333', color: 'white', padding: '30px', marginTop: '50px', textAlign: 'center' }}>
+  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', maxWidth: '1000px', margin: '0 auto' }}>
+    <div>
+      <h5>Əlaqə</h5>
+      <p>Ünvan: Naxçıvan, Culfa</p>
+      <p>Email: abbasalquliyev14@gmail.com</p>
+      <p>Tel: +994 10 478 39 59</p>
     </div>
-  );
-                   }
+    <div>
+      <h5>Bizim haqqımızda</h5>
+      <p>GemiShop - dəniz tərzi və keyfiyyəti bir arada təqdim edən onlayn mağazanız.</p>
+    </div>
+    <div>
+      <h5>Sosial Şəbəkələr</h5>
+      <p>Instagram: @_gemishop</p>
+      <p>TikTok: Tezliklə...</p>
+    </div>
+  </div>
+  <p style={{ marginTop: '30px', fontSize: '12px', color: '#aaa' }}>© 2026 GemiShop. Bütün hüquqlar qorunur.</p>
+</footer>
+      
