@@ -22,13 +22,12 @@ export default function Page() {
     { id: 3, name: 'Kompas Dəsti', price: 80, desc: 'Pirinç korpuslu dəqiq kompas.', img: 'https://images.unsplash.com/photo-1581235333278-7821f342a891?q=80&w=300&auto=format&fit=crop' },
   ];
 
-  return (
-    <div style={{ fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif', padding: '0', margin: '0', minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: '#f4f6f8' }}>
-      
-      {/* Üst menyu */}
-      <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '15px 30px', backgroundColor: '#ffffff', borderBottom: '1px solid #e0e0e0', position: 'sticky', top: 0, zIndex: 100 }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-           {/* Loqoya basanda gəmi səsi gələcək */}
+   return (
+    <div style={{ fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif', padding: '0', margin: '0' }}>     {/* Üst menyu */}
+     <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '20px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+
+  
           <Image 
             src="/file_000000003b9871f4985f9b18d4ca92a3.png" 
             alt="GemiShop Logo" 
