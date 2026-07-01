@@ -99,7 +99,9 @@ export default function Page() {
         </div>
       </div>
       <p style={{ marginTop: '30px', fontSize: '12px', color: '#aaa' }}>© 2026 GemiShop. Bütün hüquqlar qorunur.</p>
-    </footer>
+        </footer>
   </div>
 );
+}
+
   
