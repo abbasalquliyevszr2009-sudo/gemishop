@@ -6,7 +6,7 @@ export default function AdminPage() {
   const [password, setPassword] = useState('');
 
   const checkPassword = () => {
-    if (password === 'WusnaGemishop2009') { // Bura öz şifrəni yaz
+    if (password === 'WusNAGemishop2009') { // Bura öz şifrəni yaz
       setAuthenticated(true);
     } else {
       alert('Şifrə səhvdir!');
